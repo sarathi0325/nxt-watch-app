@@ -1,1 +1,1 @@
-{"installCommand": "npm install"}
+{"installCommand": "npm install", "buildCommand": "NODE_OPTIONS=--openssl-legacy-provider npm run build"}
