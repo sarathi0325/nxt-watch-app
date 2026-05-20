@@ -88,6 +88,7 @@ export const VideoStatsContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: 10px;
 
   @media (min-width: 768px) {
     flex-direction: row;
@@ -114,14 +115,17 @@ export const VideoStatsText = styled.div`
 export const ActionContainer = styled.div`
   display: flex;
   align-items: center;
+  align-self: flex-start;
+  flex-wrap: wrap;
   gap: 10px;
 `
 export const ActionButton = styled.button`
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   background: transparent;
   border: none;
+  padding: 0px;
   cursor: pointer;
   font-weight: 500;
   font-size: 15px;
