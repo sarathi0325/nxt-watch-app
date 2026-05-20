@@ -101,7 +101,7 @@ const Header = props => {
                   <NavLinkText isDark={isDark}>Gaming</NavLinkText>
                 </NavLinkItem>
 
-                <NavLinkItem to="/savedvideos" onClick={close}>
+                <NavLinkItem to="/saved-videos" onClick={close}>
                   <MdPlaylistAdd size={22} color="#ff0000" />
                   <NavLinkText isDark={isDark}>Saved Videos</NavLinkText>
                 </NavLinkItem>
