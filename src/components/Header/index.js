@@ -13,6 +13,7 @@ import {FiLogOut} from 'react-icons/fi'
 import NxtWatchContext from '../../context/NxtWatchContext'
 import {
   NavBar,
+  LogoHeading,
   IconButton,
   NxtLogo,
   MediumSizeNavIcons,
@@ -44,7 +45,7 @@ const Header = props => {
   return (
     <NavBar isDark={isDark}>
       <Link to="/">
-        <h1 className={isDark? 'white-logo' : 'dark-logo'}>StreamPulse</h1>
+        <LogoHeading isDark={isDark}>StreamPulse</LogoHeading>
       </Link>
 
       <SmallSizeNavIcons>
