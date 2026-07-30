@@ -150,6 +150,13 @@ export const ModalText = styled.p`
   margin-bottom: 30px;
 `
 
+export const LogoHeading = styled.h1`
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-weight: 500;
+  color: ${props => (props.isDark ? '#ffffff' : '#00306e')};
+`
+
 export const ModalButtonsContainer = styled.div`
   display: flex;
   gap: 20px;
@@ -182,3 +189,5 @@ export const ConfirmButton = styled.button`
   cursor: pointer;
   outline: none;
 `
+
+
